@@ -77,7 +77,7 @@ void UART_sendByte(const uint8 data);
  * Description :
  * Functional responsible for receive byte from another UART device.
  */
-uint8 UART_recieveByte(void);
+uint8 UART_receiveByte(void);
 
 /*
  * Description :

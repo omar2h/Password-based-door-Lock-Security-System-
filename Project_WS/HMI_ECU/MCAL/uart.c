@@ -172,7 +172,7 @@ void UART_sendByte(const uint8 data)
  * Description :
  * Functional responsible for receive byte from another UART device.
  */
-uint8 UART_recieveByte(void)
+uint8 UART_receiveByte(void)
 {
 	/* RXC flag is set when the UART receive data so wait until this flag is set to one */
 	while(BIT_IS_CLEAR(UCSRA,RXC)){}
@@ -216,13 +216,13 @@ void UART_receiveString(uint8 *Str)
 	uint8 i = 0;
 
 	/* Receive the first byte */
-	Str[i] = UART_recieveByte();
+	Str[i] = UART_receiveByte();
 
 	/* Receive the whole string until the '#' */
 	while(Str[i] != TEMP_END_OF_STRING)
 	{
 		i++;
-		Str[i] = UART_recieveByte();
+		Str[i] = UART_receiveByte();
 	}
 
 	/* After receiving the whole string plus the '#', replace the '#' with '\0' */

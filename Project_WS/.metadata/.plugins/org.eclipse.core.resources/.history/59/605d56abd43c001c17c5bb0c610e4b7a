@@ -1,0 +1,27 @@
+/*
+ * App.h
+ *
+ *  Created on: Nov 1, 2021
+ *      Author: omarh
+ */
+
+#ifndef APP_APP_H_
+#define APP_APP_H_
+
+#include "../ECUAL/lcd.h"
+#include "../MCAL/uart.h"
+#include "../std_types.h"
+
+#define PASSWORD_LENGTH (uint8)5
+#define PASSWORDS_MATCH 1
+#define PASSWORDS_DIDNT_MATCH 0
+#define APP_START 0
+#define GET_NEW_PASSWORD 1
+#define MAIN_OPTIONS 2
+
+void App_init();
+void App_start();
+void App_getNewPassword();
+void App_sendPasswordViaUart(uint8 * password);
+
+#endif /* APP_APP_H_ */
