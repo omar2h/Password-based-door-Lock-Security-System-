@@ -1,0 +1,39 @@
+/*
+ * App.c
+ *
+ *  Created on: Nov 1, 2021
+ *      Author: omarh
+ */
+
+
+#include "App.h"
+#include "../ECUAL/keypad.h"
+#include <util/delay.h>
+
+uint8 g_doorPassword[5]={0};
+void App_init(){
+	UART_ConfigType UART_Configurations = {BAUDRATE_9600, DATA_8BITS, NO_PARITY, ONE_STOP_BIT};
+
+	UART_init(&UART_Configurations);
+	LCD_init();
+	App_start();
+
+}
+
+void App_start(){
+	while(1){
+		LCD_displayString("Enter new password");
+		LCD_moveCursor(1,0);
+		App_getPassword(g_doorPassword);
+	}
+}
+
+void App_getPassword(uint8 * password){
+	uint8 i;
+	for(i=0; i<PASSWORD_LENGTH; i++){
+		g_doorPassword[i] = KEYPAD_getPressedKey();
+		_delay_us(1000);
+		LCD_intgerToString(g_doorPassword[i]);
+
+	}
+}

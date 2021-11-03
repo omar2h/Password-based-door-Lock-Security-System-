@@ -1,0 +1,3833 @@
+18:05:11 **** Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+In file included from ../MCAL/timer.c:10:
+../MCAL/timer.h:11:23: error: std_types.h: No such file or directory
+In file included from ../MCAL/timer.c:10:
+../MCAL/timer.h:27: error: expected specifier-qualifier-list before 'uint8'
+../MCAL/timer.c:17: error: 'NULL_PTR' undeclared here (not in a function)
+../MCAL/timer.c: In function 'TIMER_init':
+../MCAL/timer.c:32: error: 'TIMER_ConfigType' has no member named 'id'
+../MCAL/timer.c:34: error: 'TIMER_ConfigType' has no member named 'mode'
+../MCAL/timer.c:36: error: 'TIMER_ConfigType' has no member named 'initial_value'
+../MCAL/timer.c:37: error: 'TIMER_ConfigType' has no member named 'clock'
+../MCAL/timer.c:46: error: 'TIMER_ConfigType' has no member named 'initial_value'
+../MCAL/timer.c:47: error: 'TIMER_ConfigType' has no member named 'compare_value'
+../MCAL/timer.c:48: error: 'TIMER_ConfigType' has no member named 'clock'
+make: *** [MCAL/timer.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:05:13 **** Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../MCAL/gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/gpio.d" -MT"MCAL/gpio.o" -c -o "MCAL/gpio.o" "../MCAL/gpio.c"
+In file included from ../MCAL/gpio.c:13:
+../MCAL/gpio.h:16:23: error: std_types.h: No such file or directory
+In file included from ../MCAL/gpio.c:13:
+../MCAL/gpio.h:60: error: expected ')' before 'port_num'
+../MCAL/gpio.h:68: error: expected ')' before 'port_num'
+../MCAL/gpio.h:75: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'GPIO_readPin'
+../MCAL/gpio.h:84: error: expected ')' before 'port_num'
+../MCAL/gpio.h:93: error: expected ')' before 'port_num'
+../MCAL/gpio.h:100: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'GPIO_readPort'
+../MCAL/gpio.c:14:64: error: common_macros.h: No such file or directory
+../MCAL/gpio.c:22: error: expected ')' before 'port_num'
+../MCAL/gpio.c:88: error: expected ')' before 'port_num'
+../MCAL/gpio.c:153: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'GPIO_readPin'
+../MCAL/gpio.c:224: error: expected ')' before 'port_num'
+../MCAL/gpio.c:262: error: expected ')' before 'port_num'
+../MCAL/gpio.c:298: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'GPIO_readPort'
+make: *** [MCAL/gpio.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:05:53 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+In file included from ../MCAL/timer.c:10:
+../MCAL/timer.h:11:23: error: std_types.h: No such file or directory
+In file included from ../MCAL/timer.c:10:
+../MCAL/timer.h:27: error: expected specifier-qualifier-list before 'uint8'
+../MCAL/timer.c:17: error: 'NULL_PTR' undeclared here (not in a function)
+../MCAL/timer.c: In function 'TIMER_init':
+../MCAL/timer.c:32: error: 'TIMER_ConfigType' has no member named 'id'
+../MCAL/timer.c:34: error: 'TIMER_ConfigType' has no member named 'mode'
+../MCAL/timer.c:36: error: 'TIMER_ConfigType' has no member named 'initial_value'
+../MCAL/timer.c:37: error: 'TIMER_ConfigType' has no member named 'clock'
+../MCAL/timer.c:46: error: 'TIMER_ConfigType' has no member named 'initial_value'
+../MCAL/timer.c:47: error: 'TIMER_ConfigType' has no member named 'compare_value'
+../MCAL/timer.c:48: error: 'TIMER_ConfigType' has no member named 'clock'
+make: *** [MCAL/timer.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:05:53 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../MCAL/gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/gpio.d" -MT"MCAL/gpio.o" -c -o "MCAL/gpio.o" "../MCAL/gpio.c"
+In file included from ../MCAL/gpio.c:13:
+../MCAL/gpio.h:16:23: error: std_types.h: No such file or directory
+In file included from ../MCAL/gpio.c:13:
+../MCAL/gpio.h:60: error: expected ')' before 'port_num'
+../MCAL/gpio.h:68: error: expected ')' before 'port_num'
+../MCAL/gpio.h:75: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'GPIO_readPin'
+../MCAL/gpio.h:84: error: expected ')' before 'port_num'
+../MCAL/gpio.h:93: error: expected ')' before 'port_num'
+../MCAL/gpio.h:100: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'GPIO_readPort'
+../MCAL/gpio.c:14:64: error: common_macros.h: No such file or directory
+../MCAL/gpio.c:22: error: expected ')' before 'port_num'
+../MCAL/gpio.c:88: error: expected ')' before 'port_num'
+../MCAL/gpio.c:153: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'GPIO_readPin'
+../MCAL/gpio.c:224: error: expected ')' before 'port_num'
+../MCAL/gpio.c:262: error: expected ')' before 'port_num'
+../MCAL/gpio.c:298: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'GPIO_readPort'
+make: *** [MCAL/gpio.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:06:01 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+Finished building: ../MCAL/timer.c
+ 
+Building file: ../MCAL/twi.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/twi.d" -MT"MCAL/twi.o" -c -o "MCAL/twi.o" "../MCAL/twi.c"
+In file included from ../MCAL/twi.c:13:
+../MCAL/twi.h:16:23: error: std_types.h: No such file or directory
+In file included from ../MCAL/twi.c:13:
+../MCAL/twi.h:28: error: expected specifier-qualifier-list before 'uint32'
+../MCAL/twi.h:52: error: expected ')' before 'data'
+../MCAL/twi.h:53: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'TWI_readByteWithACK'
+../MCAL/twi.h:54: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'TWI_readByteWithNACK'
+../MCAL/twi.h:55: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'TWI_getStatus'
+../MCAL/twi.c:15:27: error: common_macros.h: No such file or directory
+../MCAL/twi.c: In function 'TWI_init':
+../MCAL/twi.c:20: error: 'Twi_ConfigType' has no member named 'prescaler'
+../MCAL/twi.c:22: warning: implicit declaration of function 'CLEAR_BIT'
+../MCAL/twi.c:27: warning: implicit declaration of function 'SET_BIT'
+../MCAL/twi.c:42: error: 'Twi_ConfigType' has no member named 'bit_rate'
+../MCAL/twi.c:42: error: 'Twi_ConfigType' has no member named 'prescaler'
+../MCAL/twi.c:46: error: 'Twi_ConfigType' has no member named 'address'
+../MCAL/twi.c: In function 'TWI_start':
+../MCAL/twi.c:61: warning: implicit declaration of function 'BIT_IS_CLEAR'
+../MCAL/twi.c: At top level:
+../MCAL/twi.c:74: error: expected ')' before 'data'
+../MCAL/twi.c:87: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'TWI_readByteWithACK'
+../MCAL/twi.c:101: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'TWI_readByteWithNACK'
+../MCAL/twi.c:114: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'TWI_getStatus'
+make: *** [MCAL/twi.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:06:02 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../MCAL/gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/gpio.d" -MT"MCAL/gpio.o" -c -o "MCAL/gpio.o" "../MCAL/gpio.c"
+Finished building: ../MCAL/gpio.c
+ 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+In file included from ../MCAL/timer.c:10:
+../MCAL/timer.h:11:23: error: std_types.h: No such file or directory
+In file included from ../MCAL/timer.c:10:
+../MCAL/timer.h:27: error: expected specifier-qualifier-list before 'uint8'
+../MCAL/timer.c:17: error: 'NULL_PTR' undeclared here (not in a function)
+../MCAL/timer.c: In function 'TIMER_init':
+../MCAL/timer.c:32: error: 'TIMER_ConfigType' has no member named 'id'
+../MCAL/timer.c:34: error: 'TIMER_ConfigType' has no member named 'mode'
+../MCAL/timer.c:36: error: 'TIMER_ConfigType' has no member named 'initial_value'
+../MCAL/timer.c:37: error: 'TIMER_ConfigType' has no member named 'clock'
+../MCAL/timer.c:46: error: 'TIMER_ConfigType' has no member named 'initial_value'
+../MCAL/timer.c:47: error: 'TIMER_ConfigType' has no member named 'compare_value'
+../MCAL/timer.c:48: error: 'TIMER_ConfigType' has no member named 'clock'
+make: *** [MCAL/timer.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:07:18 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../MCAL/twi.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/twi.d" -MT"MCAL/twi.o" -c -o "MCAL/twi.o" "../MCAL/twi.c"
+Finished building: ../MCAL/twi.c
+ 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+In file included from ../MCAL/uart.c:13:
+../MCAL/uart.h:4:23: error: std_types.h: No such file or directory
+In file included from ../MCAL/uart.c:13:
+../MCAL/uart.h:36: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'UART_baudrate'
+../MCAL/uart.h:51: error: expected specifier-qualifier-list before 'UART_baudrate'
+../MCAL/uart.h:74: warning: type defaults to 'int' in declaration of 'uint8'
+../MCAL/uart.h:74: error: expected ';', ',' or ')' before 'data'
+../MCAL/uart.h:80: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'UART_recieveByte'
+../MCAL/uart.h:86: warning: type defaults to 'int' in declaration of 'uint8'
+../MCAL/uart.h:86: error: expected ';', ',' or ')' before '*' token
+../MCAL/uart.h:92: error: expected ')' before '*' token
+../MCAL/uart.c:15:64: error: common_macros.h: No such file or directory
+../MCAL/uart.c: In function 'UART_init':
+../MCAL/uart.c:31: error: 'uint16' undeclared (first use in this function)
+../MCAL/uart.c:31: error: (Each undeclared identifier is reported only once
+../MCAL/uart.c:31: error: for each function it appears in.)
+../MCAL/uart.c:31: error: expected ';' before 'ubrr_value'
+../MCAL/uart.c:41: warning: implicit declaration of function 'SET_BIT'
+../MCAL/uart.c:43: error: 'ubrr_value' undeclared (first use in this function)
+../MCAL/uart.c:43: error: 'UART_ConfigType' has no member named 'baudrate'
+../MCAL/uart.c:62: error: 'UART_ConfigType' has no member named 'parity_bit'
+../MCAL/uart.c:64: warning: implicit declaration of function 'CLEAR_BIT'
+../MCAL/uart.c:82: error: 'UART_ConfigType' has no member named 'stop_bits'
+../MCAL/uart.c:95: error: 'UART_ConfigType' has no member named 'data_bits'
+../MCAL/uart.c: At top level:
+../MCAL/uart.c:150: warning: type defaults to 'int' in declaration of 'uint8'
+../MCAL/uart.c:150: error: expected ';', ',' or ')' before 'data'
+../MCAL/uart.c:175: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'UART_recieveByte'
+../MCAL/uart.c:191: warning: type defaults to 'int' in declaration of 'uint8'
+../MCAL/uart.c:191: error: expected ';', ',' or ')' before '*' token
+../MCAL/uart.c:214: error: expected ')' before '*' token
+make: *** [MCAL/uart.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:07:19 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+Finished building: ../MCAL/timer.c
+ 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+In file included from ../MCAL/uart.c:13:
+../MCAL/uart.h:4:23: error: std_types.h: No such file or directory
+In file included from ../MCAL/uart.c:13:
+../MCAL/uart.h:36: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'UART_baudrate'
+../MCAL/uart.h:51: error: expected specifier-qualifier-list before 'UART_baudrate'
+../MCAL/uart.h:74: warning: type defaults to 'int' in declaration of 'uint8'
+../MCAL/uart.h:74: error: expected ';', ',' or ')' before 'data'
+../MCAL/uart.h:80: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'UART_recieveByte'
+../MCAL/uart.h:86: warning: type defaults to 'int' in declaration of 'uint8'
+../MCAL/uart.h:86: error: expected ';', ',' or ')' before '*' token
+../MCAL/uart.h:92: error: expected ')' before '*' token
+../MCAL/uart.c:15:64: error: common_macros.h: No such file or directory
+../MCAL/uart.c: In function 'UART_init':
+../MCAL/uart.c:31: error: 'uint16' undeclared (first use in this function)
+../MCAL/uart.c:31: error: (Each undeclared identifier is reported only once
+../MCAL/uart.c:31: error: for each function it appears in.)
+../MCAL/uart.c:31: error: expected ';' before 'ubrr_value'
+../MCAL/uart.c:41: warning: implicit declaration of function 'SET_BIT'
+../MCAL/uart.c:43: error: 'ubrr_value' undeclared (first use in this function)
+../MCAL/uart.c:43: error: 'UART_ConfigType' has no member named 'baudrate'
+../MCAL/uart.c:62: error: 'UART_ConfigType' has no member named 'parity_bit'
+../MCAL/uart.c:64: warning: implicit declaration of function 'CLEAR_BIT'
+../MCAL/uart.c:82: error: 'UART_ConfigType' has no member named 'stop_bits'
+../MCAL/uart.c:95: error: 'UART_ConfigType' has no member named 'data_bits'
+../MCAL/uart.c: At top level:
+../MCAL/uart.c:150: warning: type defaults to 'int' in declaration of 'uint8'
+../MCAL/uart.c:150: error: expected ';', ',' or ')' before 'data'
+../MCAL/uart.c:175: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'UART_recieveByte'
+../MCAL/uart.c:191: warning: type defaults to 'int' in declaration of 'uint8'
+../MCAL/uart.c:191: error: expected ';', ',' or ')' before '*' token
+../MCAL/uart.c:214: error: expected ')' before '*' token
+make: *** [MCAL/uart.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:08:13 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+Finished building: ../MCAL/uart.c
+ 
+Building file: ../ECUAL/dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/dc_motor.d" -MT"ECUAL/dc_motor.o" -c -o "ECUAL/dc_motor.o" "../ECUAL/dc_motor.c"
+In file included from ../ECUAL/dc_motor.c:13:
+../ECUAL/dc_motor.h:16:23: error: std_types.h: No such file or directory
+In file included from ../ECUAL/dc_motor.c:13:
+../ECUAL/dc_motor.h:53: error: expected declaration specifiers or '...' before 'uint8'
+../ECUAL/dc_motor.c:14:18: error: gpio.h: No such file or directory
+../ECUAL/dc_motor.c:15:24: error: pwm_timer0.h: No such file or directory
+../ECUAL/dc_motor.c: In function 'DcMotor_Init':
+../ECUAL/dc_motor.c:26: warning: implicit declaration of function 'GPIO_setupPinDirection'
+../ECUAL/dc_motor.c:26: error: 'PORTB_ID' undeclared (first use in this function)
+../ECUAL/dc_motor.c:26: error: (Each undeclared identifier is reported only once
+../ECUAL/dc_motor.c:26: error: for each function it appears in.)
+../ECUAL/dc_motor.c:26: error: 'PIN0_ID' undeclared (first use in this function)
+../ECUAL/dc_motor.c:26: error: 'PIN_OUTPUT' undeclared (first use in this function)
+../ECUAL/dc_motor.c:27: error: 'PIN1_ID' undeclared (first use in this function)
+../ECUAL/dc_motor.c:30: warning: implicit declaration of function 'GPIO_writePin'
+../ECUAL/dc_motor.c:30: error: 'LOGIC_LOW' undeclared (first use in this function)
+../ECUAL/dc_motor.c: At top level:
+../ECUAL/dc_motor.c:39: error: expected declaration specifiers or '...' before 'uint8'
+../ECUAL/dc_motor.c: In function 'DcMotor_Rotate':
+../ECUAL/dc_motor.c:44: error: 'PORTB_ID' undeclared (first use in this function)
+../ECUAL/dc_motor.c:44: error: 'PIN0_ID' undeclared (first use in this function)
+../ECUAL/dc_motor.c:44: error: 'LOGIC_LOW' undeclared (first use in this function)
+../ECUAL/dc_motor.c:45: error: 'PIN1_ID' undeclared (first use in this function)
+../ECUAL/dc_motor.c:45: error: 'LOGIC_HIGH' undeclared (first use in this function)
+../ECUAL/dc_motor.c:47: warning: implicit declaration of function 'PWM_Timer0_Start'
+../ECUAL/dc_motor.c:47: error: 'speed' undeclared (first use in this function)
+make: *** [ECUAL/dc_motor.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:08:14 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+Finished building: ../MCAL/uart.c
+ 
+Building file: ../ECUAL/keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/keypad.d" -MT"ECUAL/keypad.o" -c -o "ECUAL/keypad.o" "../ECUAL/keypad.c"
+Finished building: ../ECUAL/keypad.c
+ 
+Building file: ../ECUAL/lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/lcd.d" -MT"ECUAL/lcd.o" -c -o "ECUAL/lcd.o" "../ECUAL/lcd.c"
+In file included from ../ECUAL/lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../ECUAL/lcd.c: In function 'LCD_intgerToString':
+../ECUAL/lcd.c:222: warning: implicit declaration of function 'itoa'
+Finished building: ../ECUAL/lcd.c
+ 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+Finished building: ../APP/App.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   11646 bytes (71.1% Full)
+(.text + .data + .bootloader)
+
+Data:         52 bytes (5.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:17:33 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../ECUAL/dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/dc_motor.d" -MT"ECUAL/dc_motor.o" -c -o "ECUAL/dc_motor.o" "../ECUAL/dc_motor.c"
+In file included from ../ECUAL/dc_motor.c:13:
+../ECUAL/dc_motor.h:16:23: error: std_types.h: No such file or directory
+In file included from ../ECUAL/dc_motor.c:13:
+../ECUAL/dc_motor.h:53: error: expected declaration specifiers or '...' before 'uint8'
+../ECUAL/dc_motor.c:14:18: error: gpio.h: No such file or directory
+../ECUAL/dc_motor.c:15:24: error: pwm_timer0.h: No such file or directory
+../ECUAL/dc_motor.c: In function 'DcMotor_Init':
+../ECUAL/dc_motor.c:26: warning: implicit declaration of function 'GPIO_setupPinDirection'
+../ECUAL/dc_motor.c:26: error: 'PORTB_ID' undeclared (first use in this function)
+../ECUAL/dc_motor.c:26: error: (Each undeclared identifier is reported only once
+../ECUAL/dc_motor.c:26: error: for each function it appears in.)
+../ECUAL/dc_motor.c:26: error: 'PIN0_ID' undeclared (first use in this function)
+../ECUAL/dc_motor.c:26: error: 'PIN_OUTPUT' undeclared (first use in this function)
+../ECUAL/dc_motor.c:27: error: 'PIN1_ID' undeclared (first use in this function)
+../ECUAL/dc_motor.c:30: warning: implicit declaration of function 'GPIO_writePin'
+../ECUAL/dc_motor.c:30: error: 'LOGIC_LOW' undeclared (first use in this function)
+../ECUAL/dc_motor.c: At top level:
+../ECUAL/dc_motor.c:39: error: expected declaration specifiers or '...' before 'uint8'
+../ECUAL/dc_motor.c: In function 'DcMotor_Rotate':
+../ECUAL/dc_motor.c:44: error: 'PORTB_ID' undeclared (first use in this function)
+../ECUAL/dc_motor.c:44: error: 'PIN0_ID' undeclared (first use in this function)
+../ECUAL/dc_motor.c:44: error: 'LOGIC_LOW' undeclared (first use in this function)
+../ECUAL/dc_motor.c:45: error: 'PIN1_ID' undeclared (first use in this function)
+../ECUAL/dc_motor.c:45: error: 'LOGIC_HIGH' undeclared (first use in this function)
+../ECUAL/dc_motor.c:47: warning: implicit declaration of function 'PWM_Timer0_Start'
+../ECUAL/dc_motor.c:47: error: 'speed' undeclared (first use in this function)
+make: *** [ECUAL/dc_motor.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:17:34 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../ECUAL/keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/keypad.d" -MT"ECUAL/keypad.o" -c -o "ECUAL/keypad.o" "../ECUAL/keypad.c"
+Finished building: ../ECUAL/keypad.c
+ 
+Building file: ../ECUAL/lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/lcd.d" -MT"ECUAL/lcd.o" -c -o "ECUAL/lcd.o" "../ECUAL/lcd.c"
+In file included from ../ECUAL/lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../ECUAL/lcd.c: In function 'LCD_sendCommand':
+../ECUAL/lcd.c:62: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_displayCharacter':
+../ECUAL/lcd.c:112: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_intgerToString':
+../ECUAL/lcd.c:222: warning: implicit declaration of function 'itoa'
+Finished building: ../ECUAL/lcd.c
+ 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9330 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:         52 bytes (5.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:25:49 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../ECUAL/external_eeprom.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/external_eeprom.d" -MT"ECUAL/external_eeprom.o" -c -o "ECUAL/external_eeprom.o" "../ECUAL/external_eeprom.c"
+In file included from ../ECUAL/external_eeprom.c:12:
+../ECUAL/external_eeprom.h:17:23: error: std_types.h: No such file or directory
+In file included from ../ECUAL/external_eeprom.c:12:
+../ECUAL/external_eeprom.h:29: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'EEPROM_writeByte'
+../ECUAL/external_eeprom.h:30: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'EEPROM_readByte'
+../ECUAL/external_eeprom.c:13:17: error: twi.h: No such file or directory
+../ECUAL/external_eeprom.c:15: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'EEPROM_writeByte'
+../ECUAL/external_eeprom.c:44: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'EEPROM_readByte'
+make: *** [ECUAL/external_eeprom.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:25:50 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9330 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:         52 bytes (5.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:26:38 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../ECUAL/external_eeprom.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/external_eeprom.d" -MT"ECUAL/external_eeprom.o" -c -o "ECUAL/external_eeprom.o" "../ECUAL/external_eeprom.c"
+Finished building: ../ECUAL/external_eeprom.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/external_eeprom.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2370 bytes (14.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:26:40 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9330 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:         52 bytes (5.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:27:21 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2370 bytes (14.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:27:22 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9334 bytes (57.0% Full)
+(.text + .data + .bootloader)
+
+Data:         52 bytes (5.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:28:40 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2370 bytes (14.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:28:41 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9326 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:35:20 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2370 bytes (14.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:35:21 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10078 bytes (61.5% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:36:17 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2370 bytes (14.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:36:18 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10082 bytes (61.5% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:36:36 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2370 bytes (14.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:36:37 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10082 bytes (61.5% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:37:35 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2370 bytes (14.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:37:36 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10082 bytes (61.5% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:37:54 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2370 bytes (14.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:37:55 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9586 bytes (58.5% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:12:17 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2370 bytes (14.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:12:18 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../ECUAL/keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/keypad.d" -MT"ECUAL/keypad.o" -c -o "ECUAL/keypad.o" "../ECUAL/keypad.c"
+Finished building: ../ECUAL/keypad.c
+ 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9354 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:13:28 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2370 bytes (14.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:13:28 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../ECUAL/keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/keypad.d" -MT"ECUAL/keypad.o" -c -o "ECUAL/keypad.o" "../ECUAL/keypad.c"
+Finished building: ../ECUAL/keypad.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9354 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:15:50 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2370 bytes (14.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:15:50 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../ECUAL/keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/keypad.d" -MT"ECUAL/keypad.o" -c -o "ECUAL/keypad.o" "../ECUAL/keypad.c"
+Finished building: ../ECUAL/keypad.c
+ 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9360 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:17:25 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2370 bytes (14.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:17:26 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9360 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:19:32 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2370 bytes (14.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:19:32 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../ECUAL/lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/lcd.d" -MT"ECUAL/lcd.o" -c -o "ECUAL/lcd.o" "../ECUAL/lcd.c"
+In file included from ../ECUAL/lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../ECUAL/lcd.c: In function 'LCD_sendCommand':
+../ECUAL/lcd.c:62: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_displayCharacter':
+../ECUAL/lcd.c:112: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_intgerToString':
+../ECUAL/lcd.c:222: warning: implicit declaration of function 'itoa'
+Finished building: ../ECUAL/lcd.c
+ 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/App.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9360 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:19:52 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2370 bytes (14.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:19:52 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9360 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:44:48 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2370 bytes (14.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:44:49 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/App.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9508 bytes (58.0% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:44:56 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2370 bytes (14.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:44:57 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9418 bytes (57.5% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:46:15 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2370 bytes (14.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:46:15 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9414 bytes (57.5% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:02:18 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../ECUAL/external_eeprom.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/external_eeprom.d" -MT"ECUAL/external_eeprom.o" -c -o "ECUAL/external_eeprom.o" "../ECUAL/external_eeprom.c"
+Finished building: ../ECUAL/external_eeprom.c
+ 
+Building file: ../ECUAL/lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/lcd.d" -MT"ECUAL/lcd.o" -c -o "ECUAL/lcd.o" "../ECUAL/lcd.c"
+In file included from ../ECUAL/lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../ECUAL/lcd.c:16:26: error: ../MCAL/gpio.h: No such file or directory
+../ECUAL/lcd.c: In function 'LCD_init':
+../ECUAL/lcd.c:31: warning: implicit declaration of function 'GPIO_setupPinDirection'
+../ECUAL/lcd.c:31: error: 'PORTD_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:31: error: (Each undeclared identifier is reported only once
+../ECUAL/lcd.c:31: error: for each function it appears in.)
+../ECUAL/lcd.c:31: error: 'PIN4_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:31: error: 'PIN_OUTPUT' undeclared (first use in this function)
+../ECUAL/lcd.c:32: error: 'PIN5_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:33: error: 'PIN6_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:48: warning: implicit declaration of function 'GPIO_setupPortDirection'
+../ECUAL/lcd.c:48: error: 'PORTC_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:48: error: 'PORT_OUTPUT' undeclared (first use in this function)
+../ECUAL/lcd.c: In function 'LCD_sendCommand':
+../ECUAL/lcd.c:63: warning: implicit declaration of function 'GPIO_writePin'
+../ECUAL/lcd.c:63: error: 'PORTD_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:63: error: 'PIN4_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:64: error: 'PIN5_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:66: error: 'PIN6_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:99: warning: implicit declaration of function 'GPIO_writePort'
+../ECUAL/lcd.c:99: error: 'PORTC_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:62: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_displayCharacter':
+../ECUAL/lcd.c:113: error: 'PORTD_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:113: error: 'PIN4_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:114: error: 'PIN5_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:116: error: 'PIN6_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:149: error: 'PORTC_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:112: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_intgerToString':
+../ECUAL/lcd.c:222: warning: implicit declaration of function 'itoa'
+make: *** [ECUAL/lcd.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:02:19 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:32: error: number of arguments doesn't match prototype
+../APP/App.h:19: error: prototype declaration
+../APP/App.c:38: error: too few arguments to function 'App_sendPasswordViaUart'
+make: *** [APP/App.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:02:52 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../ECUAL/lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/lcd.d" -MT"ECUAL/lcd.o" -c -o "ECUAL/lcd.o" "../ECUAL/lcd.c"
+In file included from ../ECUAL/lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../ECUAL/lcd.c:16:26: error: ../MCAL/gpio.h: No such file or directory
+../ECUAL/lcd.c: In function 'LCD_init':
+../ECUAL/lcd.c:31: warning: implicit declaration of function 'GPIO_setupPinDirection'
+../ECUAL/lcd.c:31: error: 'PORTD_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:31: error: (Each undeclared identifier is reported only once
+../ECUAL/lcd.c:31: error: for each function it appears in.)
+../ECUAL/lcd.c:31: error: 'PIN4_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:31: error: 'PIN_OUTPUT' undeclared (first use in this function)
+../ECUAL/lcd.c:32: error: 'PIN5_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:33: error: 'PIN6_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:48: warning: implicit declaration of function 'GPIO_setupPortDirection'
+../ECUAL/lcd.c:48: error: 'PORTC_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:48: error: 'PORT_OUTPUT' undeclared (first use in this function)
+../ECUAL/lcd.c: In function 'LCD_sendCommand':
+../ECUAL/lcd.c:63: warning: implicit declaration of function 'GPIO_writePin'
+../ECUAL/lcd.c:63: error: 'PORTD_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:63: error: 'PIN4_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:64: error: 'PIN5_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:66: error: 'PIN6_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:99: warning: implicit declaration of function 'GPIO_writePort'
+../ECUAL/lcd.c:99: error: 'PORTC_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:62: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_displayCharacter':
+../ECUAL/lcd.c:113: error: 'PORTD_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:113: error: 'PIN4_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:114: error: 'PIN5_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:116: error: 'PIN6_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:149: error: 'PORTC_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:112: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_intgerToString':
+../ECUAL/lcd.c:222: warning: implicit declaration of function 'itoa'
+make: *** [ECUAL/lcd.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:02:52 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:38: error: too few arguments to function 'App_sendPasswordViaUart'
+make: *** [APP/App.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:03:02 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../ECUAL/lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/lcd.d" -MT"ECUAL/lcd.o" -c -o "ECUAL/lcd.o" "../ECUAL/lcd.c"
+In file included from ../ECUAL/lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../ECUAL/lcd.c:16:26: error: ../MCAL/gpio.h: No such file or directory
+../ECUAL/lcd.c: In function 'LCD_init':
+../ECUAL/lcd.c:31: warning: implicit declaration of function 'GPIO_setupPinDirection'
+../ECUAL/lcd.c:31: error: 'PORTD_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:31: error: (Each undeclared identifier is reported only once
+../ECUAL/lcd.c:31: error: for each function it appears in.)
+../ECUAL/lcd.c:31: error: 'PIN4_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:31: error: 'PIN_OUTPUT' undeclared (first use in this function)
+../ECUAL/lcd.c:32: error: 'PIN5_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:33: error: 'PIN6_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:48: warning: implicit declaration of function 'GPIO_setupPortDirection'
+../ECUAL/lcd.c:48: error: 'PORTC_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:48: error: 'PORT_OUTPUT' undeclared (first use in this function)
+../ECUAL/lcd.c: In function 'LCD_sendCommand':
+../ECUAL/lcd.c:63: warning: implicit declaration of function 'GPIO_writePin'
+../ECUAL/lcd.c:63: error: 'PORTD_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:63: error: 'PIN4_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:64: error: 'PIN5_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:66: error: 'PIN6_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:99: warning: implicit declaration of function 'GPIO_writePort'
+../ECUAL/lcd.c:99: error: 'PORTC_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:62: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_displayCharacter':
+../ECUAL/lcd.c:113: error: 'PORTD_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:113: error: 'PIN4_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:114: error: 'PIN5_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:116: error: 'PIN6_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:149: error: 'PORTC_ID' undeclared (first use in this function)
+../ECUAL/lcd.c:112: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_intgerToString':
+../ECUAL/lcd.c:222: warning: implicit declaration of function 'itoa'
+make: *** [ECUAL/lcd.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:03:02 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/App.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9752 bytes (59.5% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:03:25 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../MCAL/gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/gpio.d" -MT"MCAL/gpio.o" -c -o "MCAL/gpio.o" "../MCAL/gpio.c"
+Finished building: ../MCAL/gpio.c
+ 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+Finished building: ../MCAL/timer.c
+ 
+Building file: ../MCAL/twi.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/twi.d" -MT"MCAL/twi.o" -c -o "MCAL/twi.o" "../MCAL/twi.c"
+Finished building: ../MCAL/twi.c
+ 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+Finished building: ../MCAL/uart.c
+ 
+Building file: ../ECUAL/lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/lcd.d" -MT"ECUAL/lcd.o" -c -o "ECUAL/lcd.o" "../ECUAL/lcd.c"
+In file included from ../ECUAL/lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../ECUAL/lcd.c: In function 'LCD_sendCommand':
+../ECUAL/lcd.c:62: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_displayCharacter':
+../ECUAL/lcd.c:112: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_intgerToString':
+../ECUAL/lcd.c:222: warning: implicit declaration of function 'itoa'
+Finished building: ../ECUAL/lcd.c
+ 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+Finished building: ../APP/App.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/external_eeprom.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9646 bytes (58.9% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:03:26 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9752 bytes (59.5% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:06:06 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9646 bytes (58.9% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:06:06 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/App.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9752 bytes (59.5% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:07:34 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9646 bytes (58.9% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:07:34 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:33: warning: unused variable 'confirm_password'
+Finished building: ../APP/App.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9656 bytes (58.9% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:13:50 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+Finished building: ../APP/App.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/external_eeprom.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9640 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:13:51 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:33: warning: unused variable 'confirm_password'
+Finished building: ../APP/App.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9678 bytes (59.1% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:19:49 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9640 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:19:50 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:33: warning: unused variable 'confirm_password'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9674 bytes (59.0% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:20:39 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9640 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:20:39 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:33: warning: unused variable 'confirm_password'
+../APP/App.c:33: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9620 bytes (58.7% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:20:55 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9640 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:20:55 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:33: warning: unused variable 'confirm_password'
+../APP/App.c:33: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9620 bytes (58.7% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:27:54 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+Finished building: ../MCAL/uart.c
+ 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+Finished building: ../APP/App.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/external_eeprom.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9016 bytes (55.0% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:27:55 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+Finished building: ../MCAL/uart.c
+ 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:33: warning: unused variable 'confirm_password'
+../APP/App.c:33: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    8998 bytes (54.9% Full)
+(.text + .data + .bootloader)
+
+Data:         34 bytes (3.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:28:59 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9016 bytes (55.0% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:28:59 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:35: warning: unused variable 'confirm_password'
+../APP/App.c:35: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    8966 bytes (54.7% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (1.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:30:09 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9016 bytes (55.0% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:30:09 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../ECUAL/keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/keypad.d" -MT"ECUAL/keypad.o" -c -o "ECUAL/keypad.o" "../ECUAL/keypad.c"
+Finished building: ../ECUAL/keypad.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    8954 bytes (54.7% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (1.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:30:24 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9016 bytes (55.0% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:30:24 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:36: warning: unused variable 'confirm_password'
+../APP/App.c:36: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9192 bytes (56.1% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (1.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:10:19 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9016 bytes (55.0% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:10:20 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+Finished building: ../MCAL/uart.c
+ 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:33: warning: unused variable 'confirm_password'
+../APP/App.c:33: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9608 bytes (58.6% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:10:36 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9016 bytes (55.0% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:10:37 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:33: warning: unused variable 'confirm_password'
+../APP/App.c:33: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9608 bytes (58.6% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:10:49 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9016 bytes (55.0% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:10:49 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:33: warning: unused variable 'confirm_password'
+../APP/App.c:33: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9608 bytes (58.6% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:11:15 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9016 bytes (55.0% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:11:15 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:33: warning: unused variable 'confirm_password'
+../APP/App.c:33: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9592 bytes (58.5% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:11:27 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9016 bytes (55.0% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:11:28 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:33: warning: unused variable 'confirm_password'
+../APP/App.c:33: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9592 bytes (58.5% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:12:03 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+Finished building: ../MCAL/uart.c
+ 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+Finished building: ../APP/App.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/external_eeprom.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9640 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:12:05 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9592 bytes (58.5% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:12:24 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9640 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:12:25 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:33: warning: unused variable 'confirm_password'
+../APP/App.c:33: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9592 bytes (58.5% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:12:35 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9640 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:12:36 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:33: warning: unused variable 'confirm_password'
+../APP/App.c:33: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9592 bytes (58.5% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:12:48 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9640 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:12:48 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:33: warning: unused variable 'confirm_password'
+../APP/App.c:33: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9592 bytes (58.5% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:12:57 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9640 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:12:58 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:33: warning: unused variable 'confirm_password'
+../APP/App.c:33: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9592 bytes (58.5% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:14:02 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+Finished building: ../APP/App.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/external_eeprom.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9638 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:14:02 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9592 bytes (58.5% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:14:14 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+Finished building: ../APP/App.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/external_eeprom.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9640 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:14:15 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9592 bytes (58.5% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:16:44 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9640 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:16:44 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:37: warning: unused variable 'confirm_password'
+../APP/App.c:37: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9800 bytes (59.8% Full)
+(.text + .data + .bootloader)
+
+Data:         26 bytes (2.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:25:17 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9640 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:25:17 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../ECUAL/keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/keypad.d" -MT"ECUAL/keypad.o" -c -o "ECUAL/keypad.o" "../ECUAL/keypad.c"
+Finished building: ../ECUAL/keypad.c
+ 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:30: warning: unused variable 'confirm_password'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9670 bytes (59.0% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:26:12 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9640 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:26:13 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:30: warning: unused variable 'confirm_password'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9678 bytes (59.1% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:27:08 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9640 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:27:09 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:30: warning: unused variable 'confirm_password'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9912 bytes (60.5% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:28:39 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9640 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:28:40 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:30: warning: unused variable 'confirm_password'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9912 bytes (60.5% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:29:06 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9640 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:29:06 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_getNewPassword':
+../APP/App.c:30: warning: unused variable 'confirm_password'
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9912 bytes (60.5% Full)
+(.text + .data + .bootloader)
+
+Data:         40 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:32:58 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9640 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:32:58 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/App.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9794 bytes (59.8% Full)
+(.text + .data + .bootloader)
+
+Data:         58 bytes (5.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:42:10 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+../APP/App.c: In function 'App_receiveNewPassword':
+../APP/App.c:40: warning: unused variable 'confirm_password'
+Finished building: ../APP/App.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/external_eeprom.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9692 bytes (59.2% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:42:11 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9794 bytes (59.8% Full)
+(.text + .data + .bootloader)
+
+Data:         58 bytes (5.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:42:45 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+../APP/App.c: In function 'App_receiveNewPassword':
+../APP/App.c:40: warning: unused variable 'confirm_password'
+Finished building: ../APP/App.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/external_eeprom.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9698 bytes (59.2% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:42:46 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9794 bytes (59.8% Full)
+(.text + .data + .bootloader)
+
+Data:         58 bytes (5.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:44:27 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+../APP/App.c: In function 'App_receiveNewPassword':
+../APP/App.c:43: warning: unused variable 'confirm_password'
+Finished building: ../APP/App.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/external_eeprom.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9714 bytes (59.3% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:44:28 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/App.c
+ 
+Building target: HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S HMI_ECU.elf  >"HMI_ECU.lss"
+Finished building: HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9800 bytes (59.8% Full)
+(.text + .data + .bootloader)
+
+Data:         58 bytes (5.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:48:37 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+../APP/App.c: In function 'App_start':
+../APP/App.c:20: warning: unused variable 'i'
+../APP/App.c: In function 'App_receiveNewPassword':
+../APP/App.c:31: warning: unused variable 'confirm_password'
+Finished building: ../APP/App.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/external_eeprom.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9742 bytes (59.5% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:48:38 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9800 bytes (59.8% Full)
+(.text + .data + .bootloader)
+
+Data:         58 bytes (5.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:49:58 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+../APP/App.c: In function 'App_start':
+../APP/App.c:20: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/external_eeprom.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9806 bytes (59.9% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:49:59 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9800 bytes (59.8% Full)
+(.text + .data + .bootloader)
+
+Data:         58 bytes (5.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:59:38 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+../APP/App.c: In function 'App_start':
+../APP/App.c:20: warning: unused variable 'i'
+../APP/App.c: In function 'App_confirmNewPassword':
+../APP/App.c:51: error: 'confirm_password' undeclared (first use in this function)
+../APP/App.c:51: error: (Each undeclared identifier is reported only once
+../APP/App.c:51: error: for each function it appears in.)
+make: *** [APP/App.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:59:38 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9800 bytes (59.8% Full)
+(.text + .data + .bootloader)
+
+Data:         58 bytes (5.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:01:05 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+../APP/App.c: In function 'App_start':
+../APP/App.c:20: warning: unused variable 'i'
+../APP/App.c: In function 'App_confirmNewPassword':
+../APP/App.c:48: error: number of arguments doesn't match prototype
+../APP/App.h:20: error: prototype declaration
+../APP/App.c:51: error: 'confirm_password' undeclared (first use in this function)
+../APP/App.c:51: error: (Each undeclared identifier is reported only once
+../APP/App.c:51: error: for each function it appears in.)
+make: *** [APP/App.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:01:06 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9800 bytes (59.8% Full)
+(.text + .data + .bootloader)
+
+Data:         58 bytes (5.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:01:09 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+../APP/App.c: In function 'App_start':
+../APP/App.c:20: warning: unused variable 'i'
+../APP/App.c: In function 'App_confirmNewPassword':
+../APP/App.c:51: error: subscripted value is neither array nor pointer
+../APP/App.c:51: error: subscripted value is neither array nor pointer
+make: *** [APP/App.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:01:09 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9800 bytes (59.8% Full)
+(.text + .data + .bootloader)
+
+Data:         58 bytes (5.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:01:35 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+../APP/App.c: In function 'App_start':
+../APP/App.c:20: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/external_eeprom.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9916 bytes (60.5% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:01:36 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9800 bytes (59.8% Full)
+(.text + .data + .bootloader)
+
+Data:         58 bytes (5.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:02:53 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+../APP/App.c: In function 'App_start':
+../APP/App.c:20: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/external_eeprom.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9944 bytes (60.7% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:02:54 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9800 bytes (59.8% Full)
+(.text + .data + .bootloader)
+
+Data:         58 bytes (5.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:29:59 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../ECUAL/lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/lcd.d" -MT"ECUAL/lcd.o" -c -o "ECUAL/lcd.o" "../ECUAL/lcd.c"
+In file included from ../ECUAL/lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../ECUAL/lcd.c: In function 'LCD_sendCommand':
+../ECUAL/lcd.c:62: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_displayCharacter':
+../ECUAL/lcd.c:112: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_intgerToString':
+../ECUAL/lcd.c:222: warning: implicit declaration of function 'itoa'
+Finished building: ../ECUAL/lcd.c
+ 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:7:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_start':
+../APP/App.c:26: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/external_eeprom.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10346 bytes (63.1% Full)
+(.text + .data + .bootloader)
+
+Data:         33 bytes (3.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:30:00 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9800 bytes (59.8% Full)
+(.text + .data + .bootloader)
+
+Data:         58 bytes (5.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:31:32 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:7:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_start':
+../APP/App.c:26: warning: unused variable 'i'
+../APP/App.c: In function 'App_savePasswordInEEPROM':
+../APP/App.c:75: warning: passing argument 2 of 'EEPROM_readByte' makes pointer from integer without a cast
+Finished building: ../APP/App.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/external_eeprom.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10630 bytes (64.9% Full)
+(.text + .data + .bootloader)
+
+Data:         33 bytes (3.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:31:33 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9800 bytes (59.8% Full)
+(.text + .data + .bootloader)
+
+Data:         58 bytes (5.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:32:52 **** Incremental Build of configuration Debug for project Control_ECU ****
+make all 
+Building file: ../APP/App.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
+In file included from ../APP/App.c:7:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/App.c: In function 'App_start':
+../APP/App.c:26: warning: unused variable 'i'
+Finished building: ../APP/App.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/external_eeprom.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10624 bytes (64.8% Full)
+(.text + .data + .bootloader)
+
+Data:         33 bytes (3.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:32:53 **** Incremental Build of configuration Debug for project HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9800 bytes (59.8% Full)
+(.text + .data + .bootloader)
+
+Data:         58 bytes (5.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
