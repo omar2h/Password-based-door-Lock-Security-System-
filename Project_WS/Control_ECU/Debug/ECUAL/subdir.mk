@@ -4,14 +4,17 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../ECUAL/dc_motor.c \
 ../ECUAL/external_eeprom.c \
 ../ECUAL/lcd.c 
 
 OBJS += \
+./ECUAL/dc_motor.o \
 ./ECUAL/external_eeprom.o \
 ./ECUAL/lcd.o 
 
 C_DEPS += \
+./ECUAL/dc_motor.d \
 ./ECUAL/external_eeprom.d \
 ./ECUAL/lcd.d 
 

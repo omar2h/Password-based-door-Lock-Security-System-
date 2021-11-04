@@ -16,7 +16,7 @@ enum{
 }TIMER_Id;
 
 enum{
-	NORMAL, PWM, CTC, FAST_PWM
+	NORMAL, CTC = 3
 }TIMER_Mode;
 
 enum{
@@ -33,5 +33,6 @@ typedef struct{
 
 void TIMER_init(TIMER_ConfigType * config);
 void TIMER_setCallBack(void(*a_ptr)(void));
+void TIMER_deinit();
 
 #endif /* TIMER_H_ */

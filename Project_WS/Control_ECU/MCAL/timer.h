@@ -33,5 +33,6 @@ typedef struct{
 
 void TIMER_init(TIMER_ConfigType * config);
 void TIMER_setCallBack(void(*a_ptr)(void));
+void Timer_deinit();
 
 #endif /* TIMER_H_ */

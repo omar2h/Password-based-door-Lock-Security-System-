@@ -1,20 +1,90 @@
-22:10:39 **** Incremental Build of configuration Debug for project Control_ECU ****
+07:48:37 **** Incremental Build of configuration Debug for project Control_ECU ****
 make all 
+Building file: ../MCAL/gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/gpio.d" -MT"MCAL/gpio.o" -c -o "MCAL/gpio.o" "../MCAL/gpio.c"
+Finished building: ../MCAL/gpio.c
+ 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+../MCAL/timer.c: In function 'TIMER_setCallBack':
+../MCAL/timer.c:63: warning: function return types not compatible due to 'volatile'
+Finished building: ../MCAL/timer.c
+ 
+Building file: ../MCAL/twi.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/twi.d" -MT"MCAL/twi.o" -c -o "MCAL/twi.o" "../MCAL/twi.c"
+Finished building: ../MCAL/twi.c
+ 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+Finished building: ../MCAL/uart.c
+ 
+Building file: ../ECUAL/dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/dc_motor.d" -MT"ECUAL/dc_motor.o" -c -o "ECUAL/dc_motor.o" "../ECUAL/dc_motor.c"
+Finished building: ../ECUAL/dc_motor.c
+ 
+Building file: ../ECUAL/external_eeprom.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/external_eeprom.d" -MT"ECUAL/external_eeprom.o" -c -o "ECUAL/external_eeprom.o" "../ECUAL/external_eeprom.c"
+Finished building: ../ECUAL/external_eeprom.c
+ 
+Building file: ../ECUAL/lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/lcd.d" -MT"ECUAL/lcd.o" -c -o "ECUAL/lcd.o" "../ECUAL/lcd.c"
+In file included from ../ECUAL/lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../ECUAL/lcd.c: In function 'LCD_sendCommand':
+../ECUAL/lcd.c:62: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_displayCharacter':
+../ECUAL/lcd.c:112: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_intgerToString':
+../ECUAL/lcd.c:222: warning: implicit declaration of function 'itoa'
+Finished building: ../ECUAL/lcd.c
+ 
+Building file: ../APP/Control.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/Control.d" -MT"APP/Control.o" -c -o "APP/Control.o" "../APP/Control.c"
+In file included from ../APP/Control.c:7:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APP/Control.c: In function 'Control_openDoor':
+../APP/Control.c:164: warning: implicit declaration of function 'TIMER_deinit'
+Finished building: ../APP/Control.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:7:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+Finished building: ../main.c
+ 
+Building target: Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_ECU.map -mmcu=atmega16 -o "Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./ECUAL/dc_motor.o ./ECUAL/external_eeprom.o ./ECUAL/lcd.o  ./APP/Control.o  ./main.o   
+Finished building target: Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_ECU.elf  >"Control_ECU.lss"
+Finished building: Control_ECU.lss
+ 
 Invoking: Print Size
 avr-size --format=avr --mcu=atmega16 Control_ECU.elf
 AVR Memory Usage
 ----------------
 Device: atmega16
 
-Program:   11164 bytes (68.1% Full)
+Program:   11874 bytes (72.5% Full)
 (.text + .data + .bootloader)
 
-Data:         34 bytes (3.3% Full)
+Data:         42 bytes (4.1% Full)
 (.data + .bss + .noinit)
 
 
 Finished building: sizedummy
  
 
-22:10:40 Build Finished. 0 errors, 0 warnings. (took 210ms)
+07:48:39 Build Finished. 0 errors, 8 warnings. (took 1s.769ms)
 

@@ -4,9 +4,12 @@
  *  Created on: Nov 1, 2021
  *      Author: omarh
  */
-#include "APP/App.h"
+
+#include "APP/HMI.h"
+
 int main(){
-	App_init();
+
+	HMI_init();
 	while(1){
 
 	}

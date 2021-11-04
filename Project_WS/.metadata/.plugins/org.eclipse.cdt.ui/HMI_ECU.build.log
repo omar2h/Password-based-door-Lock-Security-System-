@@ -1,22 +1,55 @@
-22:10:40 **** Incremental Build of configuration Debug for project HMI_ECU ****
+07:48:39 **** Incremental Build of configuration Debug for project HMI_ECU ****
 make all 
-Building file: ../APP/App.c
+Building file: ../MCAL/gpio.c
 Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"APP/App.d" -MT"APP/App.o" -c -o "APP/App.o" "../APP/App.c"
-In file included from ../APP/App.c:11:
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/gpio.d" -MT"MCAL/gpio.o" -c -o "MCAL/gpio.o" "../MCAL/gpio.c"
+Finished building: ../MCAL/gpio.c
+ 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+../MCAL/timer.c: In function 'TIMER_setCallBack':
+../MCAL/timer.c:65: warning: function return types not compatible due to 'volatile'
+Finished building: ../MCAL/timer.c
+ 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+Finished building: ../MCAL/uart.c
+ 
+Building file: ../ECUAL/keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/keypad.d" -MT"ECUAL/keypad.o" -c -o "ECUAL/keypad.o" "../ECUAL/keypad.c"
+Finished building: ../ECUAL/keypad.c
+ 
+Building file: ../ECUAL/lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"ECUAL/lcd.d" -MT"ECUAL/lcd.o" -c -o "ECUAL/lcd.o" "../ECUAL/lcd.c"
+In file included from ../ECUAL/lcd.c:13:
 c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../APP/App.c: In function 'App_getNewPassword':
-../APP/App.c:44: warning: unused variable 'i'
-../APP/App.c: In function 'App_mainOptions':
-../APP/App.c:95: warning: unused variable 'i'
-../APP/App.c:95: warning: unused variable 'key'
-../APP/App.c: In function 'App_openDoor':
-../APP/App.c:124: warning: unused variable 'i'
-Finished building: ../APP/App.c
+../ECUAL/lcd.c: In function 'LCD_sendCommand':
+../ECUAL/lcd.c:62: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_displayCharacter':
+../ECUAL/lcd.c:112: warning: unused variable 'lcd_port_value'
+../ECUAL/lcd.c: In function 'LCD_intgerToString':
+../ECUAL/lcd.c:222: warning: implicit declaration of function 'itoa'
+Finished building: ../ECUAL/lcd.c
+ 
+Building file: ../APP/HMI.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"APP/HMI.d" -MT"APP/HMI.o" -c -o "APP/HMI.o" "../APP/HMI.c"
+In file included from ../APP/HMI.c:15:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/HMI.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
  
 Building target: HMI_ECU.elf
 Invoking: AVR C Linker
-avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/App.o  ./main.o   
+avr-gcc -Wl,-Map,HMI_ECU.map -mmcu=atmega16 -o "HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./ECUAL/keypad.o ./ECUAL/lcd.o  ./APP/HMI.o  ./main.o   
 Finished building target: HMI_ECU.elf
  
 Invoking: AVR Create Extended Listing
@@ -29,15 +62,15 @@ AVR Memory Usage
 ----------------
 Device: atmega16
 
-Program:   10904 bytes (66.6% Full)
+Program:   11162 bytes (68.1% Full)
 (.text + .data + .bootloader)
 
-Data:        137 bytes (13.4% Full)
+Data:        211 bytes (20.6% Full)
 (.data + .bss + .noinit)
 
 
 Finished building: sizedummy
  
 
-22:10:40 Build Finished. 0 errors, 5 warnings. (took 563ms)
+07:48:42 Build Finished. 0 errors, 6 warnings. (took 2s.499ms)
 
